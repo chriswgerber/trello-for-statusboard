@@ -1,6 +1,6 @@
 # Trello Lists for StatusBoard
 
-A simple jQuery plugin to display the cards and labels for a Trello list inside of a [Statusboard][statusboard]. Must be publicly accessible to display on the Statusboard, later versions will support org-visible and private boards.
+A simple jQuery plugin to display the cards and labels for a Trello list inside of a [Statusboard][statusboard]. 
 
 
 ## Directions
