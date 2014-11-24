@@ -1,0 +1,103 @@
+.label_green {
+  background-color: #41c200; }
+
+.label_yellow {
+  background-color: #fad900; }
+
+.label_orange {
+  background-color: #ff9f19; }
+
+.label_red {
+  background-color: #f54747; }
+
+.label_purple {
+  background-color: #a632db; }
+
+.label_blue {
+  background-color: #0079bf; }
+
+.label_lime {
+  background-color: #45e660; }
+
+.label_sky {
+  background-color: #00c2e0; }
+
+.label_pink {
+  background-color: #ff78cb; }
+
+.label_black {
+  background-color: #4d4d4d; }
+
+.label_no_color {
+  background-color: #b3b3b3; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: collapse; }
+
+body {
+  width: 100%;
+  border-collapse: collapse; }
+
+.projectBoard {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.theList {
+  display: inline-block;
+  width: 100%; }
+
+.header {
+  position: fixed;
+  top: 0;
+  padding: 0.5em 0 0.4em;
+  color: #8F8F8F;
+  font-family: "Roadgeek 2005 Series D";
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  background-color: #292929;
+  border-bottom: 2px solid black;
+  width: 100%; }
+
+.taskList {
+  font-family: "Roadgeek 2005 Series C";
+  padding: 10px 0;
+  margin-top: 33px; }
+
+ol {
+  margin: 0;
+  list-style: decimal inside;
+  font-size: 32px;
+  padding: 0 2%; }
+
+li {
+  padding: 0.7em 0 0;
+  width: 100%; }
+  li span {
+    font-size: 28px;
+    padding: 0; }
+
+span.dueDate,
+span.due {
+  font-size: 18px; }
+
+.dueDate {
+  color: #A7A7A7; }
+
+.due {
+  color: red; }
+
+li > div {
+  font-size: 5px;
+  width: 100%; }
+
+.label {
+  display: inline-block;
+  padding: 0;
+  height: 4px; }
+
+/*# sourceMappingURL=statusboard-style.css.map */

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import 'colors';
+
+// Other CSS
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+body {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projectBoard {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.theList {
+    display: inline-block;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    padding: 0.5em 0 0.4em;
+    color: #8F8F8F;
+    font-family: "Roadgeek 2005 Series D";
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    background-color: #292929;
+    border-bottom: 2px solid black;
+    width:100%;
+}
+
+.taskList {
+    font-family: "Roadgeek 2005 Series C";
+    padding: 10px 0;
+    margin-top: 33px;
+}
+
+ol {
+    margin: 0;
+    list-style: decimal inside;
+    font-size: 32px;
+    padding: 0 2%;
+}
+
+li {
+    padding: 0.7em 0 0;
+    width: 100%;
+
+    span {
+        font-size: 28px;
+        padding: 0;
+    }
+}
+
+span.dueDate,
+span.due {
+    font-size: 18px;
+}
+
+.dueDate {
+    color:#A7A7A7;
+}
+
+.due {
+    color:red;
+}
+
+li > div {
+    font-size:5px;
+    width: 100%;
+}
+
+.label {
+    display: inline-block;
+    padding: 0;
+    height: 4px;
+}
+

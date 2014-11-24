@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache">
+	<meta application-name="Trello List" data-allows-resizing="YES" data-default-size="8,6" data-min-size="4,4" data-max-size="16,12" data-allows-scrolling="YES" />
+    <!-- Use _colors.scss to modify label colors -->
+    <link href="css/statusboard-style.css" type="text/css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.trellolist.js"></script>
+</head>
+<body>
+    <!-- The Board -->
+    <div class="projectBoard">
+        <div class="theList" id="theList1"></div>
+    </div>
+
+    <script>
+        $('div#theList1').trelloList( {
+            "apiKey"     : '', // YOUR API KEY
+            "list_id"    : '', // ID OF LIST TO DISPLAY
+            "refreshRate": 20000 // REFRESH INTERVAL IN MS. Default is 20 seconds
+        });
+    </script>
+</body>
+</html>
