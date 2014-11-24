@@ -7,7 +7,7 @@ A simple jQuery plugin to display the cards and labels for a Trello list inside 
 
 All you need is a User Token and the ID for the list you want to display.
 
-**[Click Here to Generate a User Token][token-page]**
+**[Click Here to Generate a User Token][token]**
 
 Edit `statusboard.html` and add in your list ID and token. You can adjust the refresh interval, but 20 seconds should provide a speed enough reload without refreshing too often.
 
@@ -40,6 +40,6 @@ However, if you would like to change or customize the color of the labels, you c
 [Example List][test-page]
 
 
-[statusboard]: http://panic.com/statusboard/ "Statusboard by Panic Software"
-[token-page]: https://trello.com/1/authorize?key=83daea8130ecd89af1d8ab43695e84e8&name=Trello Lists for StatusBoard By Chris Gerber&expiration=never&response_type=token 'Token Page'
+[statusboard]: http://panic.com/statusboard/ 'Statusboard by Panic Software'
+[token]: https://trello.com/1/authorize?key=83daea8130ecd89af1d8ab43695e84e8&name=Trello%20Lists%20for%20StatusBoard%20By%20Chris%20Gerber&expiration=never&response_type=token 'Token Page'
 [test-page]: http://www.chriswgerber.com/assets/trello-lists-statusboard/assets/statusboard-example.html 'Example Page'
