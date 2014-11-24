@@ -42,4 +42,4 @@ However, if you would like to change or customize the color of the labels, you c
 
 [statusboard]: http://panic.com/statusboard/ "Statusboard by Panic Software"
 [token-page]: https://trello.com/1/authorize?key=83daea8130ecd89af1d8ab43695e84e8&name=Trello Lists for StatusBoard By Chris Gerber&expiration=never&response_type=token 'Token Page'
-[test-page]: http://chriswgerber.dev/assets/trello-lists-statusboard/assets/statusboard-example.html 'Example Page'
+[test-page]: http://www.chriswgerber.com/assets/trello-lists-statusboard/assets/statusboard-example.html 'Example Page'
