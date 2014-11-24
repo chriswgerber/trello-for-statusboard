@@ -41,8 +41,8 @@ However, if you would like to change or customize the color of the labels, you c
 
 ## Screenshots
 
-![Horizontal Screenshot](docs/images/vertical_screenshot-768x1024.png)
-![Vertical Screenshot](docs/images/horizontal_screenshot-1024x768.png)
+![Horizontal Screenshot](http://www.chriswgerber.com/assets/uploads/2014/11/horizontal_screenshot.png)
+![Vertical Screenshot](http://www.chriswgerber.com/assets/uploads/2014/11/vertical_screenshot.png)
 
 [statusboard]: http://panic.com/statusboard/ 'Statusboard by Panic Software'
 [token]: https://trello.com/1/authorize?key=83daea8130ecd89af1d8ab43695e84e8&name=Trello%20Lists%20for%20StatusBoard%20By%20Chris%20Gerber&expiration=never&response_type=token 'Token Page'
