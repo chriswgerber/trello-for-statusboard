@@ -4,7 +4,7 @@ $.fn.trelloList = function( settings ) {
         refreshRate = (settings.refreshRate ? settings.refreshRate : 20000),
         $div_id     = this,
         table_query = {
-            "list_id"    :  settings.list_id,
+            "list_id"    : settings.list_id,
             "user_token" : settings.user_token,
             "api_key"    : '83daea8130ecd89af1d8ab43695e84e8',
             "param"      : [
@@ -102,18 +102,19 @@ $.fn.trelloList = function( settings ) {
     function attach_cards(key, val) {
 
         var cardId   = val["id"],
-            labels   = $("<div/>", { class: "labels" + cardId }),
+            labels   = $("<div/>", { class: "labels " + cardId }),
             cardText = '<span class="task">' + val["name"] + '</span>';
 
         if ( val["labels"].length !== 0 ) {
 
-            var boxWidth = ( 100 / ( val["labels"].length ) )+ '%';
+            var label_width = Math.floor((( $(window).width() * 0.96 ) / val["labels"].length) ) - 6;
+            var boxWidth = label_width + 'px';
 
             $.each( val["labels"], function(key, val) {
-                $('<div/>', {
+                $('<span/>', {
                     class: "label " + color( val.color ),
                     style: "width:" + boxWidth + ";",
-                    html: ""
+                    html: val.name
                 }).appendTo( labels );
             });
 
@@ -174,9 +175,7 @@ $.fn.trelloList = function( settings ) {
         trelloQuery(table_query).done( function( data ) {
             var newData = JSON.stringify( data );
 
-            oldData = JSON.stringify( oldRequest[$div_id] );
-
-            if ( newData !== oldData ) {
+            if ( newData !== JSON.stringify( oldRequest[$div_id] ) ) {
                 displayBoard();
             }
         });
