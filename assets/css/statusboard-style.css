@@ -35,7 +35,8 @@
   margin: 0;
   padding: 0;
   border: none;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  box-sizing: border-box; }
 
 body {
   width: 100%;
@@ -98,6 +99,10 @@ li > div {
 .label {
   display: inline-block;
   padding: 0;
-  height: 4px; }
+  margin: 0 3px;
+  height: 8px;
+  line-height: 100px;
+  border-radius: 3px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=statusboard-style.css.map */
